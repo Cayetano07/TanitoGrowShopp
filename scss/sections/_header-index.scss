@@ -1,0 +1,14 @@
+.header{
+    background-image: url(https://lh3.googleusercontent.com/nGcMGq-ENOQCryArP57JwEtDCRSVFv04Nbb1fuZeay__p1DJXLhS8kcrCPxmrSiZ1KSSuCWBzbw9Qw1AxYNf2Of32o8B4Uwb5GZ9oBM);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    div{
+        font-family: $texto;
+        color: rgb(255, 255, 255);
+        margin: 50px;
+    }
+}
