@@ -1,5 +1,5 @@
 .main-contacto {
-    background-image: url(https://lh3.googleusercontent.com/tmwcZIcQfJJSGn6ufx0OVR0X8WxWO8rw0ctgWq4yLudJkKOrtL513ZEqN6PxN3z-Ank7xUHAn4r255Eyq2EntJ0TgsIsL0URvJqjeleZ);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.477), rgba(0, 0, 0, 0.488));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,7 +9,7 @@
 .titulo-texto {
     font-family: $titulo;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
     p {
         font-family: $texto;
@@ -43,6 +43,6 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    height: 500px;
+    height: 200px;
     width: 500px;
 }

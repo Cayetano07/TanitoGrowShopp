@@ -6,16 +6,28 @@
 
 .main {
   background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.477));
-  height: 70vh; }
+  height: 1000px; }
   .main h2 {
     text-align: center;
     color: white;
-    font-family: "IBM Plex Sans Condensed", sans-serif; }
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    padding: 50px; }
 
 .main-buscados {
+  text-align: center;
   display: flex;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  color: white;
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif; }
+
+.main-buscados2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  text-align: center; }
 
 .nav-index {
   height: 15vh;
@@ -50,6 +62,9 @@
     align-items: center; }
   .section-footer img {
     width: 80px; }
+
+.copy:hover {
+  color: #f57f5b; }
 
 .header {
   background-image: url(https://lh3.googleusercontent.com/nGcMGq-ENOQCryArP57JwEtDCRSVFv04Nbb1fuZeay__p1DJXLhS8kcrCPxmrSiZ1KSSuCWBzbw9Qw1AxYNf2Of32o8B4Uwb5GZ9oBM);
@@ -137,7 +152,7 @@
     padding: 30px; }
 
 .main-contacto {
-  background-image: url(https://lh3.googleusercontent.com/tmwcZIcQfJJSGn6ufx0OVR0X8WxWO8rw0ctgWq4yLudJkKOrtL513ZEqN6PxN3z-Ank7xUHAn4r255Eyq2EntJ0TgsIsL0URvJqjeleZ);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.477), rgba(0, 0, 0, 0.488));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,7 +161,7 @@
 .titulo-texto {
   font-family: "IBM Plex Sans Condensed", sans-serif;
   text-align: center;
-  color: black; }
+  color: white; }
   .titulo-texto p {
     font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif; }
 
@@ -177,5 +192,36 @@
   padding: 10px;
   margin: 10px;
   text-align: center;
-  height: 500px;
+  height: 200px;
   width: 500px; }
+
+.main-tienda {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.477), rgba(0, 0, 0, 0.477));
+  text-align: center;
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  color: white; }
+
+.titulo-tienda {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  text-align: center;
+  color: white;
+  padding: 50px; }
+
+.section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.section-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.marco {
+  width: 18rem;
+  margin: 10px; }

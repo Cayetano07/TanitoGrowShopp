@@ -1,14 +1,29 @@
-.main{
+.main {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.477));
-    height: 70vh;
-    h2{
+    height: 1000px;
+
+    h2 {
         text-align: center;
         color: rgb(255, 255, 255);
         font-family: $titulo;
+        padding: 50px;
     }
 }
+
 .main-buscados {
+    text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: $texto;
+}
+
+.main-buscados2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: $texto;
+    text-align: center;
 }
