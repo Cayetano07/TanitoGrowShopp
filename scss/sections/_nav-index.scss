@@ -13,6 +13,7 @@
     ul {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         width: 70vw;
         list-style: none;
 
@@ -25,4 +26,20 @@
             }
         }
     }
+}
+
+//----------MEDIA Q----------
+@media(max-width:671px) {
+    .nav-index {
+        height: 23vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        ul{
+            width: 100vw;
+        }
+    }
+}
+//----------------MOBILE-----------------
+@media(max-width:588px){
+    
 }

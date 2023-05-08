@@ -16,7 +16,11 @@
         width: 80px;
     }
 }
+
 .copy{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
     &:hover {
         color: rgb(245, 127, 91);
     }

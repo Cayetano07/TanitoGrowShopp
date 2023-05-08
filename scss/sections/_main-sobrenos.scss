@@ -1,5 +1,5 @@
 .main-sobrenos {
-    background-color: rgba(0, 0, 0, 0.477);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 .section-sobrenos {
@@ -11,19 +11,45 @@
         text-align: center;
         font-family: $titulo;
         font-size: 700;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     p {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-family: $texto;
         font-size: 500;
         text-align: center;
-        padding: 80px;
+        margin: 20px;
     }
 
     img {
         height: 70vh;
-        padding: 30px;
+        padding: 50px;
+    }
+}
+
+//---------------------------------------------------
+@media(max-width:751px) {
+    .section-sobrenos {
+        flex-direction: column;
+
+        h1 {
+            padding: 50px;
+        }
+
+        img {
+            padding: 25px;
+            width: auto;
+        }
+    }
+}
+
+@media(max-width:451px) {
+    .section-sobrenos {
+        img {
+            width: 220px;
+            height: 220px;
+            padding: 10px;
+        }
     }
 }

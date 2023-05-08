@@ -1,5 +1,5 @@
 .main-contacto {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.477), rgba(0, 0, 0, 0.488));
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,13 +9,14 @@
 .titulo-texto {
     font-family: $titulo;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
     p {
         font-family: $texto;
     }
 }
-.formulario{
+
+.formulario {
     display: flex;
     height: 50vh;
     flex-direction: column;
@@ -24,25 +25,36 @@
     padding: 10px;
 }
 
-.nya{
+.nya {
     width: 300px;
     padding: 10px;
     margin: 10px;
 }
-.correo{
+
+.correo {
     width: 300px;
     padding: 10px;
     margin: 10px;
 }
-.enviar{
+
+.enviar {
     width: 100px;
     margin: 10px;
     padding: 10px;
 }
-.consultas{
+
+.consultas {
     padding: 10px;
     margin: 10px;
     text-align: center;
     height: 200px;
     width: 500px;
+}
+
+//---------------------------------------------------
+@media(max-width:501px) {
+    .consultas {
+        height: 70px;
+        width: 300px;
+    }
 }
