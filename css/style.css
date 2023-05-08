@@ -105,7 +105,7 @@
     color: #f57f5b; }
 
 .header {
-  background-image: url(https://lh3.googleusercontent.com/FR2vSzLD7g5A_5HXaxJp9GG6rXfiLIhxt32OGH_81a8tT_Q1BdIVUV077y-SPxS2zCR2c1cyLfuIj9J8wdIQb7um0X1vB6IInetoSZibaQ);
+  background-image: url(https://cdn.pixabay.com/photo/2022/12/19/10/41/coffee-7665238_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -233,6 +233,8 @@
       height: 70vh; } }
 
 @media (max-width: 426px) {
+  .main-reco {
+    height: 2000px; }
   .recomendaciones img {
     height: 50vh; }
   .recomendaciones-1 img {
