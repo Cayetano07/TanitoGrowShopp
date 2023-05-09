@@ -20,8 +20,7 @@
   align-items: center;
   color: black;
   font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
-  padding: 50px;
-  align-items: flex-end; }
+  padding: 50px; }
 
 .main-buscados2 {
   display: flex;
@@ -29,7 +28,6 @@
   align-items: center;
   color: black;
   font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
-  align-items: flex-end;
   padding: 50px; }
 
 @media (max-width: 1025px) {
@@ -234,7 +232,7 @@
 
 @media (max-width: 426px) {
   .main-reco {
-    height: 2000px; }
+    height: 2200px; }
   .recomendaciones img {
     height: 50vh; }
   .recomendaciones-1 img {
